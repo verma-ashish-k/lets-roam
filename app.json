@@ -4,18 +4,21 @@
     "slug": "lets-roam",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo-stacked.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo-stacked.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "imageResizeMode": "contain",
+      "resizeMethod": "center"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vermaashishk.letsroam"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4139ce24-3d45-4dd0-a3b7-242e47089d19"
+      }
+    },
+    "owner": "vermaashishk"
   }
 }
